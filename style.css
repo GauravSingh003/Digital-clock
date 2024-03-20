@@ -1,0 +1,26 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+#main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:50% 50%;
+    height:200px;
+    width: 200px;
+    border-radius: 20px;
+    background:rgb(124, 124, 210);
+    color: white;
+}
+
+#clock{
+    color: rgb(26, 29, 22);
+    font-weight: 900;
+}
+#head{
+    font-weight: bold;
+    color: bisque;
+}
